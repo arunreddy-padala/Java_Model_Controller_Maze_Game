@@ -10,16 +10,16 @@ One cave is randomly selected as the start and one cave is randomly selected to 
 
 The model provides support for the following features: 
 
-  -> Both wrapping and non-wrapping dungeons to be created with different degrees of interconnectivity.
-  -> Support for at least three types of treasure: diamonds, rubies, and sapphires. 
-  -> A description of the player that, at a minimum, includes a description of what treasure the player has collected.
-     provide a description of the player's location that at the minimum includes a description of treasure in the room and the possible moves (north, east, south, west) that the player can make from their current location
-  -> A player to move from their current location. 
-  -> A player to pick up treasure that is located in their same location. 
-  -> Ability to add at least one Otyugh in the dungeon located at the specially designated end cave. The actual number is specified on the command line. 
-  -> Otyugh only occupy caves and are never found in tunnels. Their caves can also contain treasure or other items.
-  -> Player starts with 3 crooked arrows but can find additional arrows in the dungeon with the same frequency as treasure.
-  -> A player that has arrows, can attempt to slay an Otyugh by specifying a direction and distance in which to shoot their crooked arrow. Distance is defined as the number of caves (but not tunnels) that an arrow travels.
-  -> It takes 2 hits to kill an Otyugh. Players has a 50% chance of escaping if the Otyugh if they enter a cave of an injured Otyugh that has been hit by a single crooked arrow.
+A) Both wrapping and non-wrapping dungeons to be created with different degrees of interconnectivity.
+B) Support for at least three types of treasure: diamonds, rubies, and sapphires. 
+C) A description of the player that, at a minimum, includes a description of what treasure the player has collected.
+     provide a description of the player's location that at the minimum includes a description of treasure in the room and the possible moves (north, east,      south, west) that the player can make from their current location
+D) A player to move from their current location. 
+E) A player to pick up treasure that is located in their same location. 
+F) Ability to add at least one Otyugh in the dungeon located at the specially designated end cave. The actual number is specified on the command line. 
+G) Otyugh only occupy caves and are never found in tunnels. Their caves can also contain treasure or other items.
+H) Player starts with 3 crooked arrows but can find additional arrows in the dungeon with the same frequency as treasure.
+I) A player that has arrows, can attempt to slay an Otyugh by specifying a direction and distance in which to shoot their crooked arrow. Distance is defined as the number of caves (but not tunnels) that an arrow travels.
+J) It takes 2 hits to kill an Otyugh. Players has a 50% chance of escaping if the Otyugh if they enter a cave of an injured Otyugh that has been hit by a single crooked arrow.
   
   
